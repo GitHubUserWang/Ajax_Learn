@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quanjushuaxin:war">
+    <output-path>$PROJECT_DIR$/quanjushuaxin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>quanjushuaxin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Ajax_Learn-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quanjushuaxin:war exploded" />
+    </root>
+  </artifact>
+</component>

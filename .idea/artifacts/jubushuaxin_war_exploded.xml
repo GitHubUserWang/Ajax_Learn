@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jubushuaxin:war exploded">
+    <output-path>$PROJECT_DIR$/jubushuaxin/target/jubushuaxin-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>jubushuaxin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jubushuaxin" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: net.minidev:json-smart:2.4.7" />
+          <element id="library" level="project" name="Maven: net.minidev:accessors-smart:2.4.7" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:9.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jubushuaxin/target/jubushuaxin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jubushuaxin/web/Web" />
+    </root>
+  </artifact>
+</component>

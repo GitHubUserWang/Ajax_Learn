@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jubushuaxin:war">
+    <output-path>$PROJECT_DIR$/jubushuaxin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jubushuaxin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jubushuaxin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jubushuaxin:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Ajax_Learn:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Ajax_Learn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Ajax_Learn-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Ajax_Learn:war exploded" />
+    </root>
+  </artifact>
+</component>
